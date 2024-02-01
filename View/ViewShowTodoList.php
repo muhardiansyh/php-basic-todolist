@@ -13,7 +13,7 @@ function viewShowTodoList(){
         echo "MENU" . PHP_EOL;
         echo "1. Tambah todo" . PHP_EOL;
         echo "2. Hapus todo" . PHP_EOL;
-        echo "3. Keluar" . PHP_EOL;
+        echo "(x) Keluar" . PHP_EOL;
 
         $pilihan = input("Pilih");
         if($pilihan == "1") {
